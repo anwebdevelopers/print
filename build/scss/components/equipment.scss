@@ -1,0 +1,122 @@
+.equipment {
+	padding: 55px 0 55px 0;
+}
+.equipment__slider-wrapper.owl-carousel {
+	display: block;
+}
+.equipment__title {
+	text-align: center;
+	margin: 0 0 40px 0;
+	h2 {
+		margin: 0;
+		font-size: 45px;
+		font-family: 'ProximaNovaExCnSbold';
+	}
+	span {
+		color: $accent-color;
+	}
+}
+.equipment__box {
+	@extend .clearfix;
+}
+.equipment__slider-item {
+	@extend .clearfix;
+	float: left;
+	width: 25%;
+}
+.equipment__item {
+	margin: 0 5px 10px 5px;
+	position: relative;
+	&:before {
+
+		content: '';
+		position: absolute;
+		left: 0;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		z-index: 1;
+		transition: background-color .5s ease;
+	}
+	&:hover, &:active, &:focus {
+		&:before {
+			background-color: transparentize(#000, .3);
+		}
+		.equipment__item-title {
+			padding: 40px 20px;
+			left: 20%;
+			right: 20%;
+			height: auto;
+			bottom: 15%;
+			background-color: $main-color;
+			line-height: 1.5;
+		}
+	}
+}
+
+.equipment__item-img {
+	img {
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+}
+.equipment__item-title {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 2;
+	line-height: 58px;
+	font-size: 24px;
+	color: #fff;
+	background-color: transparentize($main-color, .2);
+	text-align: center;
+	transition: background .3s ease, left .3s ease, right .3s ease, bottom .3s ease; 
+}
+
+.equipment__slider-nav-top,
+.equipment__slider-nav-middle,
+.equipment__slider-nav-bottom {
+	display: none;
+	position: absolute;
+	z-index: 10;
+	left: 0;
+	right: 0;
+	font-size: 50px;
+	color: #fff;
+	height: 20px
+}
+.equipment__slider-nav-top {
+	top: 30%;
+	margin-top: -10px;
+}
+.equipment__slider-nav-middle {
+	top: 63%;
+	margin-top: -10px;
+}
+.equipment__slider-nav-bottom {
+	bottom: 2.5%;
+	margin-top: -10px;
+}
+.equipment__slider-nav-prev {
+	position: absolute;
+	left: 10px;
+	top: 0;
+	font-size: 50px;
+	color: #fff;
+	cursor: pointer;
+	height: 20px;
+	line-height: 20px;
+
+}
+.equipment__slider-nav-next {
+	position: absolute;
+	top: 0;
+	right: 10px;
+	font-size: 50px;
+	color: #fff;
+	cursor: pointer;
+	height: 20px;
+	line-height: 20px;
+}

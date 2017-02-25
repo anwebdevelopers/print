@@ -1,0 +1,157 @@
+.problems {
+	padding: 55px 0 75px 0;
+}
+.problems__wrapper {
+	@extend .container;
+}
+.problems__title {
+	text-align: center;
+	margin: 0 0 80px 0;
+	h2 {
+		margin: 0;
+		font-size: 45px;
+		font-family: 'ProximaNovaExCnSbold';
+	}
+	span {
+		color: $accent-color;
+	}
+}
+.problems__box {
+	position: relative;
+	padding: 0 0 35px 0;
+	margin: 0 0 40px 0;
+}
+.problems__img {
+	position: absolute;
+	top: -25px;
+	left: 50%;
+	margin-left: -241px;
+}
+.problems__row {
+	@extend .clearfix;
+	position: relative;
+	z-index: 1;
+	margin: 0 0 70px 0;
+}
+.problems__item {
+	width: 34%;
+}
+.problems__item-left {
+	float: left;
+	text-align: right;
+}
+.problems__item-right {
+	float: right;
+	text-align: left;
+}
+.problems__item-icon {
+	
+	i {
+		display: inline-block;
+		vertical-align: top;
+		background-image: url(../img/sprites.png);
+	}
+	.icon-1 {
+		background-position: -23.00189208984375px -112.95980834960938px ;
+		width: 30px;
+		height: 46px;
+	}
+	.icon-2{
+		background-position: -111.0067138671875px -114.95547485351562px ;
+		width: 46px;
+		height: 46px;
+	}
+
+	.icon-3{
+		background-position: -218.99603271484375px -114.97390747070312px ;
+		width: 38px;
+		height: 46px;
+	}
+
+	.icon-4{
+		background-position: -313.00933837890625px -115.95925903320312px ;
+		width: 46px;
+		height: 46px;
+	}
+	.icon-5{
+		background-position: -412.01312255859375px -122.97781372070312px ;
+		width: 43px;
+		height: 44px;
+	}
+
+	.icon-6{
+		background-position: -517.0033569335938px -109.95437622070312px ;
+		width: 37px;
+		height: 46px;
+	}
+}
+.problems__item-left .problems__item-icon {
+	float: right;
+	margin: 8px 0 0 30px;
+}
+.problems__item-left .problems__item-title,
+.problems__item-left .problems__item-text {
+	margin-right: 70px;
+}
+.problems__item-title {
+	margin: 0 0 25px 0;
+	font-size: 28px;
+	font-weight: 400;
+	h3 {
+		margin: 0;
+	}
+}
+.problems__item-text {
+	font-size: 20px;
+	line-height: 1.2;
+	p {
+		margin: 0;
+	}
+}
+.problems__item-right .problems__item-icon {
+	float: left;
+	margin: 8px 30px 0 0;
+}
+.problems__item-right .problems__item-title,
+.problems__item-right .problems__item-text {
+	margin-left: 70px;
+}
+.consultation {
+	text-align: center;
+}
+.consultation__icon {
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 0 35px 0;
+	i {
+		display: block;
+		background-image: url(../img/sprites.png);
+		background-position: -513.0065307617188px -14.977264404296875px ;
+		width: 41px;
+		height: 51px;
+	}
+}
+.consultation__text {
+	margin: 0 0 35px 0;
+	font-size: 38px;
+	letter-spacing: 2px;
+}
+.consultation__btn {
+	a {
+		display: inline-block;
+		vertical-align: top;
+		padding: 12px 20px;
+		border: 3px solid $main-color;
+		background-color: $main-color;
+		color: #fff;
+		text-decoration: none;
+		font-size: 26px;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+		transition: color .5s ease, background .5s ease;;
+		&:hover, &:active, &:focus {
+			background-color: #fff;
+			color: $main-color;
+		}
+	}
+}

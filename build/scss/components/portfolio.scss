@@ -1,0 +1,27 @@
+.portfolio {
+	padding: 55px 0 55px 0;
+}
+.portfolio__title {
+	text-align: center;
+	margin: 0 0 55px 0;
+	h2 {
+		margin: 0;
+		font-size: 45px;
+		font-family: 'ProximaNovaExCnSbold';
+	}
+	span {
+		color: $accent-color;
+	}
+}
+.portfolio__box {
+	@extend .clearfix;
+}
+.portfolio__item {
+	float: left;
+	width: 33.3%;
+	img {
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+}

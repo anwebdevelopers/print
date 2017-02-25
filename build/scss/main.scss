@@ -1,0 +1,106 @@
+@import "bourbon";
+@import "components/vars.scss";
+@import "components/normalize.scss";
+
+@font-face {
+    font-family: 'ProximaNovaExCnLight';
+    src: url('../fonts/ProximaNovaExCnLight.eot');
+    src: url('../fonts/ProximaNovaExCnLight.eot') format('embedded-opentype'),
+         url('../fonts/ProximaNovaExCnLight.woff2') format('woff2'),
+         url('../fonts/ProximaNovaExCnLight.woff') format('woff'),
+         url('../fonts/ProximaNovaExCnLight.ttf') format('truetype'),
+         url('../fonts/ProximaNovaExCnLight.svg#ProximaNovaExCnLight') format('svg');
+}
+@font-face {
+    font-family: 'ProximaNovaExCnSbold';
+    src: url('../fonts/ProximaNovaExCnSbold.eot');
+    src: url('../fonts/ProximaNovaExCnSbold.eot') format('embedded-opentype'),
+         url('../fonts/ProximaNovaExCnSbold.woff2') format('woff2'),
+         url('../fonts/ProximaNovaExCnSbold.woff') format('woff'),
+         url('../fonts/ProximaNovaExCnSbold.ttf') format('truetype'),
+         url('../fonts/ProximaNovaExCnSbold.svg#ProximaNovaExCnSbold') format('svg');
+}
+
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	color: #666;
+}
+body input:required:valid,
+body textarea:required:valid {
+	color: #666;
+}
+
+//Custom Styles Here
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	min-width: 320px;
+	position: relative;
+	line-height: 1;
+	font-family: 'ProximaNovaExCnLight', sans-serif;
+	color: #111;
+	background-color: #fff;
+}
+.container {
+	max-width: 1190px;
+	margin: 0 auto;
+}
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.hidden {
+	display: none;
+}
+a {
+	outline: none !important;
+}
+
+@import "components/header.scss";
+@import "components/header-slider.scss";
+@import "components/production.scss";
+@import "components/service.scss";
+@import "components/equipment.scss";
+@import "components/price.scss";
+@import "components/calculation.scss";
+@import "components/problems.scss";
+@import "components/personal.scss";
+@import "components/advantages.scss";
+@import "components/portfolio.scss";
+@import "components/clients.scss";
+@import "components/contacts.scss";
+@import "components/footer.scss";
+@import "components/forms.scss";
+@import "components/magnific-popup.scss";
+
+//@import "build/scss/components/magnific-popup.scss";
+
+//ALWAYS END
+@import "components/media.scss";
+
+//Load Libs SASS
+@import "html/libs/owl.carousel/dist/assets/owl.carousel.min";
+@import "html/libs/animate/animate.sass";
+//@import "html/libs/superfish/dist/css/superfish";
+//@import "html/libs/font-awesome/scss/font-awesome.scss";
+//@import "html/libs/jQuery.mmenu/dist/css/jquery.mmenu.all";
+@import "html/libs/magnific-popup/dist/magnific-popup";

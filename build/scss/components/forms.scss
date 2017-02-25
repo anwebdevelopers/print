@@ -1,0 +1,346 @@
+.price-form {
+	position: relative;
+	display: block;
+	padding: 35px 0;
+	max-width: 380px;
+	margin: 0 auto;
+	background-color: #fff;
+	
+	input::-webkit-input-placeholder {color:#111;}
+	input::-moz-placeholder          {color:#111;}/* Firefox 19+ */
+	input:-moz-placeholder           {color:#111;}/* Firefox 18- */
+	input:-ms-input-placeholder      {color:#111;}
+
+	a {
+		
+	}	
+}
+.price-form__name,
+.price-form__email,
+.price-form__tel {
+	display: block;
+	width: 80%;
+	height: 40px;
+	margin: 0 auto 10px auto;
+	padding: 0;
+	outline: 0;
+	box-shadow: none;
+	border: 1px solid #ddd;
+	line-height: 40px;
+	text-indent: 10px;
+	font-weight: 600;
+}
+.price-form__file {
+	margin: 15px 10% 30px 10%;
+	display: block;
+	position: relative;
+	text-decoration: underline;
+	padding: 0 0 0 20px;
+	color: #000;
+	font-weight: 600;
+	cursor: pointer;
+	&:before {
+		content: '';
+		position: absolute;
+		left: 0;
+		top: 2px;
+		background-image: url(../img/sprites.png);
+		background-position: -509.95904541015625px -209.9930419921875px;
+		width: 12px;
+		height: 13px;
+	}
+	input {
+		display: none;
+	}
+}
+.price-form__title {
+	text-align: center;
+	font-size: 25px;
+	margin: 0 0 30px 0;
+	font-weight: 600;
+}
+.price-form__box {
+	@extend .clearfix;
+	margin: 15px 10% 0 10%;
+	span {
+		display: block;
+		text-align: center;
+		margin: 15px 10% 10px 10%;
+		font-size: 18px;
+		font-weight: 600;
+	}
+	
+	
+}
+.price-form__box-right,
+.price-form__box-left {
+	width: 45%;
+	margin: 0 0 10px 0;
+	position: relative;
+	height: 40px;
+	&:after {
+		content: '';
+		position: absolute;
+		z-index: 2;
+		right: 10px;
+		top: 20px;
+		border: 4px solid transparent;
+		border-top: 4px solid #000;	
+	}
+	select {
+		display: block;
+		width: 100%;
+		height: 40px;
+		background-color: #fff;
+		border: 1px solid #ddd;
+		outline: none;
+		box-shadow: none;
+		font-weight: 600;
+		text-indent: 4px;
+		cursor: pointer;
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		-ms-appearance: none;
+		-o-appearance: none;
+		appearance: none!important;
+		&::-ms-expand {
+			display: none;
+		}
+	}
+}
+.price-form__box-left {
+	float: left;
+}
+.price-form__box-right {
+	float: right;
+}
+.price-form__btn {
+	display: block;
+		width: 80%;
+		margin: 15px 10% 0 10%;
+		padding: 8px 0;
+		outline: 0;
+		box-shadow: none;
+		font-size: 18px;
+		text-transform: uppercase;
+		text-align: center;
+		background-color: $main-color;
+		border: 2px solid $main-color;
+		color: #fff;
+		transition: color .5s ease, background .5s ease;
+		&:hover, &:active, &:focus {
+			background-color: #fff;
+			color: $main-color;
+		}
+}
+.consult-form {
+	position: relative;
+	display: block;
+	padding: 35px 0;
+	max-width: 380px;
+	margin: 0 auto;
+	background-color: #fff;
+	
+	input::-webkit-input-placeholder {color:#111;}
+	input::-moz-placeholder          {color:#111;}/* Firefox 19+ */
+	input:-moz-placeholder           {color:#111;}/* Firefox 18- */
+	input:-ms-input-placeholder      {color:#111;}
+	
+}
+.consult-form__name,
+.consult-form__email,
+.consult-form__tel {
+	display: block;
+	width: 80%;
+	height: 40px;
+	margin: 0 auto 10px auto;
+	padding: 0;
+	outline: 0;
+	box-shadow: none;
+	border: 1px solid #ddd;
+	line-height: 40px;
+	text-indent: 10px;
+	font-weight: 600;
+}
+.consult-form__title {
+	text-align: center;
+	font-size: 25px;
+	margin: 0 0 30px 0;
+	font-weight: 600;
+}
+.consult-form__box {
+	width: 80%;
+	margin: 25px auto 30px auto;
+	text-align: right;
+	span {
+		float: left;
+		width: 85px;
+		font-weight: 600;
+		text-align: left; 
+	}
+	label {
+		position: relative;
+		display: inline-block;
+		vertical-align: top;
+		margin: 0 0 0 5px;
+		&:after {
+			content: '';
+			position: absolute;
+			z-index: 2;
+			right: 10px;
+			top: 20px;
+			border: 4px solid transparent;
+			border-top: 4px solid #000;	
+		}
+		
+	}
+	select {
+		width: 78px;
+		height: 40px;
+		background-color: #fff;
+		border: 1px solid #ddd;
+		outline: none;
+		box-shadow: none;
+		font-weight: 600;
+		text-indent: 10px;
+		cursor: pointer;
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		-ms-appearance: none;
+		-o-appearance: none;
+		appearance: none!important;
+		&::-ms-expand {
+			display: none;
+		}
+	}
+}
+.consult-form__btn {
+	display: block;
+		width: 80%;
+		margin: 15px 10% 0 10%;
+		padding: 8px 0;
+		outline: 0;
+		box-shadow: none;
+		font-size: 18px;
+		text-transform: uppercase;
+		text-align: center;
+		background-color: $main-color;
+		border: 2px solid $main-color;
+		color: #fff;
+		transition: color .5s ease, background .5s ease;
+		&:hover, &:active, &:focus {
+			background-color: #fff;
+			color: $main-color;
+		}
+}
+.excursion-form {
+	position: relative;
+	display: block;
+	padding: 35px 0;
+	max-width: 380px;
+	margin: 0 auto;
+	background-color: #fff;
+	input {
+		display: block;
+		width: 80%;
+		height: 40px;
+		margin: 0 auto 10px auto;
+		padding: 0;
+		outline: 0;
+		box-shadow: none;
+		border: 1px solid #ddd;
+		line-height: 40px;
+		text-indent: 10px;
+		font-weight: 600;
+	}
+	input::-webkit-input-placeholder {color:#111;}
+	input::-moz-placeholder          {color:#111;}/* Firefox 19+ */
+	input:-moz-placeholder           {color:#111;}/* Firefox 18- */
+	input:-ms-input-placeholder      {color:#111;}	
+}
+.excursion-form__name,
+.excursion-form__email,
+.excursion-form__tel {
+	display: block;
+	width: 80%;
+	height: 40px;
+	margin: 0 auto 10px auto;
+	padding: 0;
+	outline: 0;
+	box-shadow: none;
+	border: 1px solid #ddd;
+	line-height: 40px;
+	text-indent: 10px;
+	font-weight: 600;
+}
+.excursion-form__title {
+	text-align: center;
+	font-size: 25px;
+	margin: 0 0 30px 0;
+	font-weight: 600;
+}
+.excursion-form__box {
+	width: 80%;
+	margin: 25px auto 30px auto;
+	text-align: right;
+	span {
+		float: left;
+		width: 85px;
+		font-weight: 600;
+		text-align: left; 
+	}
+	label {
+		position: relative;
+		display: inline-block;
+		vertical-align: top;
+		margin: 0 0 0 5px;
+		&:after {
+			content: '';
+			position: absolute;
+			z-index: 1;
+			right: 10px;
+			top: 20px;
+			border: 4px solid transparent;
+			border-top: 4px solid #000;	
+		}
+		
+	}
+	select {
+		width: 78px;
+		height: 40px;
+		background-color: #fff;
+		border: 1px solid #ddd;
+		outline: none;
+		box-shadow: none;
+		font-weight: 600;
+		text-indent: 10px;
+		cursor: pointer;
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		-ms-appearance: none;
+		-o-appearance: none;
+		appearance: none!important;
+		&::-ms-expand {
+			display: none;
+		}
+	}
+}
+.excursion-form__btn {
+	display: block;
+		width: 80%;
+		margin: 15px 10% 0 10%;
+		padding: 8px 0;
+		outline: 0;
+		box-shadow: none;
+		font-size: 18px;
+		text-transform: uppercase;
+		text-align: center;
+		background-color: $main-color;
+		border: 2px solid $main-color;
+		color: #fff;
+		transition: color .5s ease, background .5s ease;
+		&:hover, &:active, &:focus {
+			background-color: #fff;
+			color: $main-color;
+		}
+}

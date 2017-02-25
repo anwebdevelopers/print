@@ -1,0 +1,106 @@
+.advantages-1, .advantages-2, .advantages-3, .advantages-4, .advantages-5, .problems-5, .problems-6, .problems-1, .problems-2, .problems-3, .problems-4, .consult, .service-1, .service-2, .service-3, .service-4, .price{
+	background: url(sprites.png) no-repeat;
+}
+
+.advantages-1{
+	background-position: 0 0;
+	width: 73px;
+	height: 72px;
+}
+
+.advantages-2{
+	background-position: -98.99676513671875px -7.977081298828125px ;
+	width: 73px;
+	height: 62px;
+}
+
+.advantages-3{
+	background-position: -205.995849609375px -6.988922119140625px ;
+	width: 65px;
+	height: 69px;
+}
+
+.advantages-4{
+	background-position: -300.99566650390625px -3.988739013671875px ;
+	width: 68px;
+	height: 69px;
+}
+
+.advantages-5{
+	background-position: -392.99334716796875px -5.98046875px ;
+	width: 76px;
+	height: 69px;
+}
+
+.problems-5{
+	background-position: -412.01312255859375px -123.97781372070312px ;
+	width: 43px;
+	height: 44px;
+}
+
+.problems-6{
+	background-position: -517.0033569335938px -110.95437622070312px ;
+	width: 37px;
+	height: 46px;
+}
+
+.problems-1{
+	background-position: -23.00189208984375px -113.95980834960938px ;
+	width: 30px;
+	height: 46px;
+}
+
+.problems-2{
+	background-position: -111.0067138671875px -115.95547485351562px ;
+	width: 46px;
+	height: 46px;
+}
+
+.problems-3{
+	background-position: -218.99603271484375px -115.97390747070312px ;
+	width: 38px;
+	height: 46px;
+}
+
+.problems-4{
+	background-position: -313.00933837890625px -116.95925903320312px ;
+	width: 46px;
+	height: 46px;
+}
+
+.consult{
+	background-position: -513.0065307617188px -15.977264404296875px ;
+	width: 41px;
+	height: 51px;
+}
+
+.service-1{
+	background-position: -4.01483154296875px -200.98178100585938px ;
+	width: 68px;
+	height: 68px;
+}
+
+.service-2{
+	background-position: -109.9971923828125px -205.96432495117188px ;
+	width: 59px;
+	height: 59px;
+}
+
+.service-3{
+	background-position: -212.00762939453125px -200.96713256835938px ;
+	width: 45px;
+	height: 66px;
+}
+
+.service-4{
+	background-position: -300.99530029296875px -215.96151733398438px ;
+	width: 63px;
+	height: 41px;
+}
+
+.price{
+	background-position: -410.95159912109375px -209.96133422851562px ;
+	width: 40px;
+	height: 56px;
+}
+

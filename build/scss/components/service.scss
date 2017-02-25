@@ -1,0 +1,80 @@
+.service {
+	padding: 55px 75px;
+}
+.service__wrapper {
+	@extend .container;
+}
+.service__title {
+	text-align: center;
+	margin: 0 0 40px 0;
+	h2 {
+		margin: 0;
+		font-size: 45px;
+		font-family: 'ProximaNovaExCnSbold';
+	}
+	span {
+		color: $accent-color;
+	}
+}
+.service__box {
+	@extend .clearfix;
+	margin: 0 0 30px 0;
+}
+.service__item {
+	float: left;
+	margin: 0 0.5% 0 0.5%;
+	padding: 30px 0 30px 0;
+	width: 23.5%;
+	border: 1px solid #ddd;
+	text-align: center;
+	
+}
+.service__item-img {
+	width: 88px;
+	height: 88px;
+	margin: 0 auto 15px auto;
+	text-align: center;
+	background-color: $main-color;
+	border-radius: 50%;
+	line-height: 88px;
+	i {
+		display: inline-block;
+		vertical-align: middle;
+		background-image: url(../img/sprites.png);
+	}
+	.icon-1 {
+		background-position: -4.01483154296875px -200.98178100585938px ;
+		width: 68px;
+		height: 68px;
+	}
+	.icon-2{
+		background-position: -109.9971923828125px -205.96432495117188px ;
+		width: 59px;
+		height: 59px;
+	}
+
+	.icon-3{
+		background-position: -212.00762939453125px -200.96713256835938px ;
+		width: 45px;
+		height: 66px;
+	}
+
+	.icon-4{
+		background-position: -300.99530029296875px -215.96151733398438px ;
+		width: 63px;
+		height: 41px;
+	}
+}
+.service__itemtext {
+	font-size: 22px;
+	font-weight: 600;
+}
+.service__text {
+	text-align: center;
+	font-weight: 600;
+	font-size: 21px;
+	p {
+		margin: 0;
+
+	}
+}

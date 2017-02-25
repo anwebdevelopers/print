@@ -1,0 +1,28 @@
+.footer {
+	padding: 40px 0;
+}
+.footer__wrapper {
+	@extend .container;
+	@extend .clearfix;
+}
+.footer__contacts {
+	float: right;
+	font-size: 18px;
+	line-height: 1.3;
+	font-family: Arial;
+	span {
+		display: block;
+	}
+	a {
+		color: $accent-color;
+	}
+}
+.footer__copy {
+	float: left;
+	font-size: 18px;
+	line-height: 1.3;
+	font-family: Arial;
+	span {
+		display: block;
+	}
+}

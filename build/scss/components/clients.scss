@@ -1,0 +1,99 @@
+.clients {
+	padding: 55px 0 55px 0;
+}
+.clients__wrapper {
+	@extend .container;
+}
+.clients__title {
+	text-align: center;
+	margin: 0 0 55px 0;
+	h2 {
+		margin: 0;
+		font-size: 45px;
+		font-family: 'ProximaNovaExCnSbold';
+	}
+	span {
+		color: $accent-color;
+	}
+}
+.clients__box {
+	@extend .clearfix;
+	text-align: center;
+}
+.clients__item {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 50px 20px 50px;
+	background-image: url(../img/sprites.png);
+}
+.client-7{
+	background-position: -270.96807861328125px -549.9615020751953px ;
+	width: 112px;
+	height: 162px;
+}
+
+.client-8{
+	background-position: -293.983642578125px -500.9733428955078px ;
+	width: 194px;
+	height: 41px;
+}
+
+.client-9{
+	background-position: -19.909912109375px -667.9579620361328px ;
+	width: 206px;
+	height: 45px;
+}
+
+.client-10{
+	background-position: -407.9595947265625px -565.9676666259766px ;
+	width: 95px;
+	height: 130px;
+}
+
+.client-1{
+	background-position: -7.97088623046875px -273.96546936035156px ;
+	width: 313px;
+	height: 71px;
+}
+
+.client-2{
+	background-position: -348.9847412109375px -276.9795379638672px ;
+	width: 201px;
+	height: 122px;
+}
+
+.client-3{
+	background-position: -15.96282958984375px -352.96168518066406px ;
+	width: 267px;
+	height: 60px;
+}
+
+.client-4{
+	background-position: -14.97369384765625px -421.97145080566406px ;
+	width: 232px;
+	height: 90px;
+}
+
+.client-5{
+	background-position: -288.94818115234375px -429.96937561035156px ;
+	width: 234px;
+	height: 57px;
+}
+
+.client-6{
+	background-position: -13.9222412109375px -518.9496612548828px ;
+	width: 215px;
+	height: 132px;
+}
+.clients__text {
+	padding: 30px  0 0 0;
+	margin: 0 50px;
+	text-align: center;
+	font-size: 22px;
+	font-family: Arial;
+	border-top: 1px solid #ddd;
+	p {
+		margin: 0;
+
+	}
+}

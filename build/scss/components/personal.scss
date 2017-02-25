@@ -1,0 +1,109 @@
+.personal {
+	padding: 65px 0;
+	margin: 0 0 55px 0;
+	background-image: url(../img/personal-bg.jpg);
+	background-position: center 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.personal__wrapper {
+	@extend .container;
+	@extend .clearfix;
+}
+.personal__excursion {
+	float: left;
+	width: 25%;
+}
+.personal__excursion-title {
+	padding: 30px 70px 0 20px;
+	margin: 0 0 30px 0;
+	color: #fff;
+	h2 {
+		margin: 0;
+		font-size: 45px;
+	}
+}
+.personal__excursion-text {
+	padding: 0 70px 0 20px;
+	margin: 0 0 30px 0;
+	color: #fff;
+	font-family: Arial;
+	font-weight: 200;
+	p {
+		margin: 0;
+		font-size: 17px;
+		line-height: 1.3;
+	}
+}
+.personal__excursion-btn {
+	padding: 0 0 0 20px;
+	a {
+		display: inline-block;
+		vertical-align: top;
+		padding: 10px 15px;
+		border: 3px solid $main-color;
+		background-color: $main-color;
+		color: #fff;
+		text-decoration: none;
+		font-size: 26px;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		transition: color .5s ease, background .5s ease;;
+		&:hover, &:active, &:focus {
+			background-color: #fff;
+			color: $main-color;
+		}
+	}
+}
+.personal__slider {
+	@extend .clearfix;
+	float: right;
+	width: 75%;
+}
+.personal__slider.owl-carousel {
+	display: block;
+	width: 75%;
+}
+.personal__slider-item {
+	float: left;
+	width: 31%;
+	padding: 45px 0;
+	margin: 0 2% 0 0;
+	background-color: #fff;
+}
+.personal__slider-item-img {
+	width: 65%;
+	margin: 0 auto;
+	img {
+		width: 100%;
+		height: auto;
+		border-radius: 50%;
+	}
+}
+.personal__slider-item-title {
+	text-align: center;
+	padding: 25px 20px 0 20px;
+	font-family: Arial;
+	h3 {
+		margin: 0 0 10px 0;
+		font-size: 23px;
+		
+		font-weight: 400;
+		line-height: 1.2;
+	}
+	small {
+		font-size: 15px;
+		
+		color: #888;
+	}
+}
+.personal__slider-item-text {
+	padding: 5px 20px 0 20px;
+	text-align: center;
+	font-family: Arial;
+	font-size: 14px;
+	line-height: 1.3;
+	p {
+		margin: 0;
+	}
+}

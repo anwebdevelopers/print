@@ -1,0 +1,88 @@
+.calculation {
+	padding: 35px 0;
+	margin: 0 0 75px 0;
+	background-image: url(../img/calculation-bg.jpg);
+	background-position: center 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.calculation__wrapper {
+	@extend .container;
+	@extend .clearfix;
+}
+.calculation__left-col {
+	float: left;
+	width: 50%;
+}
+.calculation__text {
+	padding: 75px 87px 0 57px;
+	font-size: 45px;
+	color: #fff;
+	font-family: 'ProximaNovaExCnSbold';
+	p {
+		margin: 0;
+	}
+}
+
+.calculation__right-col {
+	float: right;
+	width: 50%;
+	text-align: right;
+}
+.calculation__box {
+	display: inline-block;
+	vertical-align: top;
+	padding: 55px 40px 40px 40px;
+	background-color: $main-color;
+}
+.calculation__box-title {
+	margin: 0 0 45px 0;
+	text-align: center;
+	.icon{
+		display: block;
+		margin: 0 auto 20px auto;
+		background-image: url(../img/sprites.png);
+		background-position: -410.95159912109375px -209.96133422851562px ;
+		width: 40px;
+		height: 56px;
+	}
+	span {
+		font-size: 31px;
+		color: #fff;
+		letter-spacing: 2px;
+	}
+}
+.calculation__box-links {
+	margin: 0 0 20px 0;
+	text-align: center;
+	a {
+		display: inline-block;
+		vertical-align: top;
+		margin: 0 17px;
+		color: #fff;
+		text-decoration: none;
+		font-size: 19px;
+		border-bottom: 1px solid #ddd;
+		transition: opacity .5s ease;
+		&:hover, &:active, &:focus {
+			opacity: .6;
+		}
+	}
+}
+.calculation__box-btn {
+	a {
+		display: block;
+		padding: 15px 32px;
+		font-size: 22px;
+		text-transform: uppercase;
+		color: #fff;
+		border: 3px solid #fff;
+		text-decoration: none;
+		letter-spacing: 1px;
+		transition: color .5s ease, background .5s ease;
+		&:hover, &:active, &:focus {
+			color: $main-color;
+			background-color: #fff;
+		}
+	}
+}

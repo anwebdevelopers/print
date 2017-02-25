@@ -1,0 +1,149 @@
+@import "bourbon";
+@import "components/vars.scss";
+
+.header {
+	position: relative;
+	padding: 40px 0 150px;
+	// padding: 40px 0 150px 0;
+	background-image: linear-gradient(to bottom, transparentize(#000, .1),
+	                                             transparent 30%);
+
+}
+.header__wrapper {
+	@extend .container;
+	position: relative;
+	z-index: 1;
+	text-align: center;
+	
+}
+.header__logo {
+	position: absolute;
+	top: 10px;
+	left: 50%;
+	margin-left: -56px;
+	img {
+		width: 113px;
+		height: 76px;
+	}
+}
+.header__text {
+	display: inline-block;
+	vertical-align: top;
+	width: 195px;
+	padding: 10px 0 0 0;
+	margin-right: 205px;
+	font-size: 22px;
+	line-height: 26px;
+	color: #fff;
+	text-align: right;
+	p {
+		margin: 0;
+	}
+}
+.header__phone {
+	display: inline-block;
+	vertical-align: top;
+	width: 195px;
+	margin-left: 205px;
+	padding: 10px 0 0 0;
+	color: #fff;
+	text-align: left;
+}
+.header__phone-number {
+	display: block;
+	margin-bottom: 5px;
+	font-size: 22px;
+}
+.header__phone-link {
+	display: inline-block;
+	vertical-align: top;
+	color: #fff;
+	font-size: 22px;
+	text-decoration: none;
+	border-bottom: 1px solid #888;
+	transition: color .5s ease;
+	&:hover, &:active, &:focus {
+		color: #aaa;
+	}
+}
+.header__nav {
+	margin: 70px 0 0 0;
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		text-align: center;
+		li {
+			display: inline-block;
+			vertical-align: top;
+			padding: 0 30px;
+			a {
+				display: block;
+				
+				font-size: 21px;
+				text-transform: uppercase;
+				text-decoration: none;
+				color: #fff;
+				border-bottom: 1px solid #888;
+				transition: color .5s ease;
+				&:hover, &:active, &:focus {
+					color: #aaa;
+				}
+			}
+		}
+	}
+}
+.header__title {
+	max-width: 660px;
+	margin: 110px auto 0 auto;
+	color: #fff;
+	h1 {
+		margin: 0 0 10px 0;
+		font-size: 106px;
+		font-family: 'ProximaNovaExCnSbold';
+		line-height: 100px;
+	}
+	span {
+		font-size: 30px;
+	}
+}
+.header__link-box {
+	margin: 80px 0 0 0;
+}
+.header__link-box-btn {
+	a {
+		display: inline-block;
+		vertical-align: top;
+		padding: 15px 55px;
+		margin: 0 0 15px 0;
+		color: #fff;
+		text-decoration: none;
+		font-size: 26px;
+		background-color: $main-color;
+		border-bottom: 4px solid darken($main-color, 10%);
+		transition: background .5s ease;
+		&:hover, &:active, &:focus {
+			margin-top: 4px;
+			background: darken($main-color, 10%);
+			border-bottom: none;
+		}
+	}
+}
+.header__link-box-item {
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 15px;
+	a {
+		display: block;
+		font-size: 19px;
+		color: #fff;
+		text-decoration: none;
+		border-bottom: 1px solid transparentize(#fff, .5);
+		transition: opacity .5s ease;
+		&:hover, &:active, &:focus {
+			opacity: .5
+		}
+	}
+}
+
+

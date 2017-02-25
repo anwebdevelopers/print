@@ -1,0 +1,92 @@
+.advantages {
+	padding: 55px 0 75px 0;
+}
+.advantages__wrapper {
+	@extend .container;
+}
+.advantages__title {
+	text-align: center;
+	margin: 0 0 40px 0;
+	h2 {
+		margin: 0 0 10px 0;
+		font-size: 45px;
+		font-family: 'ProximaNovaExCnSbold';
+	}
+	span {
+		font-size: 28px;
+	}
+}
+.advantages__box {
+	@extend .clearfix;
+}
+.advantages__item {
+	@extend .clearfix;
+	float: left;
+	width: 19%;
+	margin: 0 0.5%;
+	padding: 45px 0;
+	background-color: $main-color;
+	color: #fff;
+	text-align: center;
+}
+.advantages__item-icon {
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 0 20px 0;
+	i {
+		display: block;
+		height: 72px;
+		background-image: url(../img/sprites.png);
+	}
+	.icon-1{
+		background-position: 0 0;
+		width: 73px;
+
+	}
+
+	.icon-2{
+		background-position: -98.99676513671875px -7.977081298828125px ;
+		width: 73px;
+
+	}
+
+	.icon-3{
+		background-position: -205.995849609375px -6.988922119140625px ;
+		width: 65px;
+
+	}
+
+	.icon-4{
+		background-position: -300.99566650390625px -3.988739013671875px ;
+		width: 68px;
+
+	}
+
+	.icon-5{
+		background-position: -392.99334716796875px -5.98046875px ;
+		width: 76px;
+
+	}
+}
+.advantages__item-text {
+	position: relative;
+ 	padding: 50px 0 0 0;
+ 	margin: 0 25px;
+ 	font-size: 17px;
+ 	line-height: 1.2;
+ 	font-family: Arial;
+ 	font-weight: 100;
+ 	&:before {
+ 		content: '';
+ 		position: absolute;
+ 		top: 0;
+ 		left: 20px;
+ 		right: 20px;
+ 		height: 1px;
+ 		background-color: #fff;
+ 		opacity: .2;
+ 	}
+ 	p {
+ 		margin: 0;
+ 	}
+}
